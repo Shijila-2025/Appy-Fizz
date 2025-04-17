@@ -1,0 +1,136 @@
+nav{
+    background-color: #0A0B27;
+    z-index: 1000;
+}
+.imge{
+    width: 400px;
+    height: 200px;
+}
+
+
+.sec-section .content ,p{
+    font-family: "merivaregular";
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 1.70455vw;
+    padding: 0px;
+    color: #000;
+    
+}
+.sec-section .bg-darks{
+    background-color: black;
+}
+
+.containerd {
+    position: relative;
+    height: 100vh; /* Full height to center content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    /* font-size: 2rem; */
+    font-weight: 900;
+    font-family: "EksellDisplayWeb-Small";
+}
+
+#rot-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg); /* Initially no rotation */
+    width: 150px; /* Adjust size as needed */
+    z-index: 1;
+}
+
+
+/* footer section style */
+footer p{
+    font-size: 14px;
+}
+
+footer .ftpa a{
+    color: #0a0b27;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer .ftpa a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.ftpa p {
+    margin-bottom: 7px;
+}
+
+.ftpa a {
+    
+    margin-bottom: 5px;
+}
+
+footer .ft3 a{
+    color: #0a0b27;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer .ft3 a:hover{
+    text-decoration: underline;
+    color: red;
+}
+footer .ft3 img:hover{
+    background-color: red;
+    color: white;
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Medium devices (tablets, 768px to 991.98px) */
+    
+    body {
+        font-size: 1rem;
+        background-color: #f8f9fa;
+    }
+
+    .text-container h1 {
+        font-size: 3rem;
+        color: #d10000;
+    }
+
+    .content p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+
+    .navbar {
+        background-color: #000 !important;
+    }
+
+    .navbar-nav .nav-link {
+        color: white !important;
+        font-size: 0.95rem;
+    }
+
+    .containerd {
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    #rot-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img-fluid {
+        max-height: 500px;
+        object-fit: cover;
+    }
+}
